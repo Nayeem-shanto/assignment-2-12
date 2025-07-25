@@ -350,7 +350,7 @@ footer a{
 @media screen and (max-width: 576px) {
   .nav-container {
     display: flex;
-    width: 361px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
   }
@@ -412,6 +412,13 @@ footer a{
   .offer-25 {
     font-size: 1.25rem;
   }
+  .footer-1st-column{
+    padding-left: 37px;
+  }
+  .footer-last-column{
+    padding-left: 37px;
+  }
+
   .footer-container{
     flex-direction: column;
   }
