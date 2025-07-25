@@ -57,6 +57,36 @@ nav a {
   font-weight: 400;
 }
 
+/* Banner related styles */
+
+.banner-container {
+  max-width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+.banner-title{
+  color: #000;
+font-size: 4.1rem;
+font-weight: 700;
+}
+.fresh, .flowers{
+  color: #E95A08;
+font-size: 4.1rem;
+font-weight: 700;
+}
+.banner-description{
+  color: rgba(0, 0, 0, 0.50);
+font-size: 1.3rem;
+font-weight: 400;
+
+}
+
+
+
+
+
+
 /* Responsive Design */
 
 @media screen and (max-width: 576px) {
@@ -68,5 +98,8 @@ nav a {
   }
   .nav-container li:nth-child(-n + 3) {
     display: none;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
   }
 }
