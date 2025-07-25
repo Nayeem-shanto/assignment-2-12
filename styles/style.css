@@ -348,6 +348,9 @@ footer a{
 /* Responsive Design */
 
 @media screen and (max-width: 576px) {
+  body{
+    overflow-x: hidden;
+  }
   .nav-container {
     display: flex;
     width: 100%;
@@ -361,7 +364,7 @@ footer a{
     flex-direction: column-reverse;
   }
   .banner-img {
-    width: 393.177px;
+    width: 380px;
     height: 245px;
   }
 
