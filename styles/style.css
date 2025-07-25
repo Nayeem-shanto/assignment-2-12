@@ -70,6 +70,11 @@ nav a {
   font-size: 4.1rem;
   font-weight: 700;
 }
+.banner-image{
+  width: 570px;
+height: 355px;
+aspect-ratio: 114/71;
+}
 .fresh,
 .flowers {
   color: #e95a08;
@@ -363,10 +368,16 @@ footer a{
   .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-img {
-    width: 380px;
-    height: 245px;
+  .banner-title{
+    font: size 1.5rem;
   }
+  .banner-img {
+  width: 50%;
+height: 245px;
+flex-shrink: 0;
+aspect-ratio: 393.18/245.00;
+}
+
 
   .plant-description {
     width: auto;
